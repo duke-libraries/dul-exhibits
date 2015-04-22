@@ -6,6 +6,7 @@
     <title>Galleries -- Sidney D. Gamble in China | Duke University Libraries</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/css/foundation.css" />
     <link rel="stylesheet" href="gamble_styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" type="text/css" media="screen" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/js/vendor/modernizr.js"></script>
   </head>
   <body>
@@ -28,7 +29,8 @@
             <nav class="top-bar" data-topbar role="navigation">
               <ul class="left">
               <li><a href="index.html">Home</a></li>
-              <li class="has-dropdown"><a href="gallery.html">Galleries</a></li>
+              <li class="has-dropdown">
+                <a href="gallery.html">Galleries</a>
 
                 <ul class="dropdown">
                   <li><a href="wall1.html">Wall 1</a></li>
@@ -37,6 +39,7 @@
                   <li><a href="wall4.html">Wall 4</a></li>
                   <li><a href="color.html">Color</a></li>
                 </ul>
+              </li>
 
               <li><a href="essays.html">Essays</a></li>
               <li><a href="about.html">About</a></li>
@@ -56,35 +59,35 @@
 
         <h2>Galleries</h2>
 
-        <img src="http://placehold.it/200x150&text=thumbnail" class="float-left">
+        <a class="fancybox" rel="group" href="gamble_medium/gamble_009A_43.jpg"><img src="gamble_thumbs/gamble_009A_43.jpg" class="float-left thumbnail"></a>
 
         <h3 class="top-pad"><a href="wall1.html">Wall 1</a></h3>
         <p>Some explanatory text</p>
 
         <hr>
 
-        <img src="http://placehold.it/200x150&text=thumbnail" class="float-left">
+        <a class="fancybox" rel="group" href="gamble_medium/gamble_072A_398.jpg"><img src="gamble_thumbs/gamble_072A_398.jpg" class="float-left thumbnail"></a>
 
         <h3 class="top-pad"><a href="wall2.html">Wall 2</a></h3>
         <p>Some explanatory text</p>
 
         <hr>
 
-        <img src="http://placehold.it/200x150&text=thumbnail" class="float-left">
+        <a class="fancybox" rel="group" href="gamble_medium/gamble_098A_548.jpg"><img src="gamble_thumbs/gamble_098A_548.jpg" class="float-left thumbnail"></a>
 
         <h3 class="top-pad"><a href="wall3.html">Wall 3</a></h3>
         <p>Some explanatory text</p>
 
         <hr>
 
-        <img src="http://placehold.it/200x150&text=thumbnail" class="float-left">
+        <a class="fancybox" rel="group" href="gamble_medium/gamble_222A_1243.jpg"><img src="gamble_thumbs/gamble_222A_1243.jpg" class="float-left thumbnail"></a>
 
         <h3 class="top-pad"><a href="wall4.html">Wall 4</a></h3>
         <p>Some explanatory text</p>
 
         <hr>
 
-        <img src="http://placehold.it/200x150&text=thumbnail" class="float-left">
+        <a class="fancybox" rel="group" href="gamble_medium/RL_10074_LS_0047.jpg"><img src="gamble_thumbs/RL_10074_LS_0047.jpg" class="float-left thumbnail"></a>
 
         <h3 class="top-pad"><a href="color.html">Color</a></h3>
         <p>Some explanatory text</p>
@@ -154,8 +157,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/js/vendor/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/js/foundation.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/js/foundation/foundation.equalizer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
     <script>
       $(document).foundation();
+      $(document).ready(function() {
+        $(".fancybox").fancybox();
+      });
     </script>
   </body>
 </html>

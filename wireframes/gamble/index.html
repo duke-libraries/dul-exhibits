@@ -6,6 +6,7 @@
     <title>Sidney D. Gamble in China | Duke University Libraries</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/css/foundation.css" />
     <link rel="stylesheet" href="gamble_styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" type="text/css" media="screen" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/js/vendor/modernizr.js"></script>
   </head>
   <body>
@@ -72,8 +73,6 @@
           <p>Photography Gallery</p>
           <p>David M. Rubenstein Rare Book &amp; Manuscript Library</p>
 
-
-
       	</div>
       </div>
 
@@ -126,8 +125,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/js/vendor/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/js/foundation.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/js/foundation/foundation.equalizer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
+    <!-- Add fancyBox -->
     <script>
       $(document).foundation();
+      $(document).ready(function() {
+        $(".fancybox").fancybox();
+      });
     </script>
   </body>
 </html>
