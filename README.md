@@ -1,7 +1,7 @@
 Getting Started with DUL-Exhibits
 ====================
 
-This projects uses [Middleman](https://middlemanapp.com), a static site generator, that uses ERB templates, sprockets, and other Ruby on Rails conventions.
+This project uses [Middleman](https://middlemanapp.com), a static site generator, that uses ERB templates, sprockets, and other Ruby on Rails conventions.
 
 1. To get started with this project first clone this repository to your workstation.
 
