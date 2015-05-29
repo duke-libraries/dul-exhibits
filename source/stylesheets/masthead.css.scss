@@ -1,0 +1,65 @@
+/* Stylesheet for DUL Exhibits Masthead */
+
+// define color variables
+
+$mastheadPrimary: #114981;
+$mastheadSecondary: #235f9c;
+
+$navPrimary: #464646;
+$navSecondary: #262626;
+
+
+.masthead-wrapper {
+  max-width: 100%;
+  background: #114981;
+  overflow: visible;
+  margin-bottom: .15em;
+
+  @include filter-gradient($mastheadPrimary, $mastheadSecondary, horizontal);
+  @include background-image(linear-gradient(left,  $mastheadPrimary 49%,$mastheadSecondary 51%,$mastheadSecondary 100%));
+
+}
+
+.logo-wrapper {
+  background: $mastheadPrimary;
+  padding: 12px 0 12px 12px;
+  display: block;
+  float: left;
+  overflow: hidden;
+  width: 310px;
+}
+
+.logo-spacer {
+  background: $mastheadSecondary;
+  display: block;
+  float: left;
+  overflow: hidden;
+  width: calc(100% - 326px);
+}
+
+
+
+.nav-wrapper {
+  max-width: 100%;
+  background: $navPrimary;
+}
+
+#nav .top-bar {
+  background: $navPrimary;
+}
+
+#nav ul li > a {
+  font-size: .9rem;
+}
+
+#nav ul li {
+  background: $navPrimary;
+}
+
+#nav li:not(.has-form) a:not(.button) {
+  background: $navPrimary;
+}
+
+#nav li:not(.has-form) a:not(.button):hover {
+    background: $navSecondary;
+}
