@@ -1,0 +1,288 @@
+/* Stylesheet for DUL Exhibits Content Pages */
+
+
+
+/* +++ Home Page =================== */
+
+.index .panel {
+    margin-bottom: 1.5rem;
+    box-shadow: 0px 0 6px 1px #ddd;
+    border: 8px solid #fff;
+}
+
+.index .feature p.callout {
+    display: block;
+    text-transform: uppercase;
+    width: 100%;
+    border-bottom: 1px dotted rgba(255,255,255,0.25);
+}
+
+.index .feature .description h3,
+.index .feature .description h4,
+.index .feature .description p {
+    color: #fff;
+    margin:0;
+    letter-spacing: .05em;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5);
+    display: block;
+}
+
+.index .feature .description h3 {
+    font-size: 1.95em;
+}
+
+.index .feature .description h3,
+.index .feature .description h4 {
+    padding-top: .25em;
+}
+
+.index .gamble {
+    background: url('/images/home/gamble.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 19em;
+    padding: 0;
+    position: relative;
+}
+
+.index .gamble .description {
+    background: #F09905;
+    background: rgba(250,143,5,0.85);
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+}
+
+
+.index .galleries {
+    background: url('/images/home/rl_bg2.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 19em;
+    padding: 0;
+    position: relative;
+}
+
+.index .galleries .description {
+    background: #F09905;
+    background: rgba(114,131,2,0.85);
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    width: 100%
+}
+
+
+
+
+.index .baskin {
+    background: url('/images/home/desk.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 19em;
+    padding: 0;
+    position: relative;
+}
+
+.index .baskin .description {
+    background: #F09905;
+    background: rgba(6,128,205,0.85);
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 100%
+}
+
+
+
+.index .psalm {
+    background: url('/images/home/psalm.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 0;
+    position: relative;
+    min-height: 17em;
+}
+
+.index .psalm .description {
+    background: #F09905;
+    background: rgba(0,51,102,0.85);
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    width: 100%
+}
+
+
+
+.index .event {
+    background: #988675;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+}
+
+.index .event .thumb {
+    display: block;
+}
+
+.index .event .description {
+    display: block;
+    padding: 15px;
+}
+
+.index .event .thumb img {
+    width: 100%;
+}
+
+
+.index .event p,
+.index .event h4 {
+    color: #fff;
+    margin:0;
+    padding:0 0 .25em 0;
+    letter-spacing: .05em;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5);
+    display: block;
+}
+
+.index .event p.date {
+    color: #494038;
+    font-style: italic;
+    margin: 0 0 .25em 0;
+    padding: 0 0 .25em 0;
+    border-bottom: 1px dotted #807061;
+    letter-spacing:0;
+    text-shadow: none;
+}
+
+.index .event p,
+.index .event h4 {
+    margin:0;
+    padding:0 0 .25em 0;
+    display: block;
+}
+
+
+
+
+
+.index .student {
+    position: relative;
+    background: #fff;
+    padding:0;
+}
+
+.index .student .description {
+    position: absolute;
+    bottom:0;
+    padding: 10px 5px 5px 5px;
+    width: 100%;
+    float: left;
+    background: #fff;
+}
+
+.index .student .description p,
+.index .student .description h4 {
+    text-shadow: none;
+}
+
+
+.index .student .description h4 {
+    line-height: 1.1;
+    font-size: 1.25em;
+    color: #555;
+    margin-bottom: .25em;
+}
+
+.index .student .description p {
+    color: #555;
+    line-height: 1.1;
+    font-size: .9em;
+}
+
+.index .student .description p.callout {
+    border-bottom: 1px dotted #ccc;
+    margin-bottom: .5em;
+    padding-bottom: .25em;
+    text-shadow: none;
+    color: #888;
+}
+
+
+
+
+
+/* +++ Content Pages =================== */
+
+
+/* need set min/max font sizes w/ media queries! */
+
+.content h1 {
+    font-size: 8vw;
+    color: #a1b70d;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.content h2 {
+    font-size: 3vw;
+    color: #988675;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.content p {
+    font-size: 1.5vw;
+    color: #333;
+    line-height: 1.4;
+}
+
+
+
+
+.current .exhibit {
+
+    display: block;
+    margin-bottom: 4em;
+    overflow: hidden;
+
+}
+
+
+.current .exhibit p.callout {
+    display: block;
+    text-transform: uppercase;
+    font-size: 2vw;
+    border-top: 1px dotted #988675;
+    border-bottom: 1px dotted #988675;
+    background: #DAD0C6;
+    margin: 1em 0 1em 0;
+    padding: .5em;
+    color: #988675;
+}
+
+.current .exhibit .thumb {
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    width: 33%;
+    border: 6px solid #eee;
+}
+
+.current .exhibit .thumb img {
+    width: 100%;
+    display: block;
+}

@@ -9,6 +9,10 @@ $navPrimary: #464646;
 $navSecondary: #262626;
 
 
+.row {
+    max-width: 70rem;
+}
+
 .masthead-wrapper {
   max-width: 100%;
   background: #114981;
@@ -22,11 +26,11 @@ $navSecondary: #262626;
 
 .logo-wrapper {
   background: $mastheadPrimary;
-  padding: 12px 0 12px 12px;
+  padding: 23px 0 23px 12px;
   display: block;
   float: left;
   overflow: hidden;
-  width: 310px;
+  width: 550px;
 }
 
 .logo-spacer {
@@ -34,7 +38,7 @@ $navSecondary: #262626;
   display: block;
   float: left;
   overflow: hidden;
-  width: calc(100% - 326px);
+  width: calc(100% - 550px);
 }
 
 
@@ -42,6 +46,7 @@ $navSecondary: #262626;
 .nav-wrapper {
   max-width: 100%;
   background: $navPrimary;
+  margin-bottom: 2em;
 }
 
 #nav .top-bar {

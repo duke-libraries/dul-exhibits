@@ -3,13 +3,18 @@
     <div class="row">
 
       <div class="logo-wrapper">
-        <% link_to 'http://library.duke.edu/exhibits' do %>
-          <%= image_tag 'masthead/dul_exhibits_logo.png' %>
+
+        <% link_to 'http://library.duke.edu', :title => "Duke University Libraries" do %>
+          <%= image_tag 'masthead/dul_logo.png' %>
+        <% end %>
+
+        <% link_to 'index.html', :title => "Library Exhibits" do %>
+          <%= image_tag 'masthead/exhibits_logo.png' %>
         <% end %>
       </div>
 
       <div class="logo-spacer">
-          <%= image_tag 'masthead/dul_chevron.png' %>
+          <%= image_tag 'masthead/mast_arrow.png' %>
       </div>
 
     </div>
